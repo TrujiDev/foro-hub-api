@@ -14,5 +14,3 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
-
-## 8f5bbfcb-cdc7-4a9d-b3c5-948ed9dbab69
