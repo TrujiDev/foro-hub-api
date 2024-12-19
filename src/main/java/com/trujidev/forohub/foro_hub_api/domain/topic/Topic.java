@@ -27,6 +27,8 @@ public class Topic {
   @Setter
   private LocalDateTime creationDate;
 
+  @Setter
+  @Enumerated(EnumType.STRING)
   private Status status;
   private Boolean active;
 
