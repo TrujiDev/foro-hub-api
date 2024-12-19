@@ -2,13 +2,13 @@ package com.trujidev.forohub.foro_hub_api.domain.response;
 
 import java.time.LocalDateTime;
 
-public record ResponseTopicData(
+public record ResponsesTopicData(
     String author,
     LocalDateTime creationDate,
     String message
 ) {
 
-  public ResponseTopicData (Response response) {
+  public ResponsesTopicData(Response response) {
     this(response.getAuthor().getName(), response.getCreationDate(), response.getMessage());
   }
 

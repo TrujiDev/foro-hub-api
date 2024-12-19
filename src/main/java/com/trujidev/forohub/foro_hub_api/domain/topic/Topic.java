@@ -2,6 +2,7 @@ package com.trujidev.forohub.foro_hub_api.domain.topic;
 
 import com.trujidev.forohub.foro_hub_api.domain.course.Course;
 import com.trujidev.forohub.foro_hub_api.domain.response.Response;
+import com.trujidev.forohub.foro_hub_api.domain.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 

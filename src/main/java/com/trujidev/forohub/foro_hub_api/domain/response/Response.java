@@ -1,5 +1,7 @@
 package com.trujidev.forohub.foro_hub_api.domain.response;
 
+import com.trujidev.forohub.foro_hub_api.domain.topic.Topic;
+import com.trujidev.forohub.foro_hub_api.domain.user.User;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.*;
